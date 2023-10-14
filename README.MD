@@ -1,0 +1,10 @@
+- Retrieve and load the Olivetti faces dataset [0 points]
+- Split the training set, a validation set, and a test set using stratified sampling to ensure that there are the same number of images per person in each set. [0 points]
+- Using k-fold cross validation, train a classifier to predict which person is represented in each picture, and evaluate it on the validation set. [0 points]
+- Using either Agglomerative Hierarchical Clustering (AHC) or Divisive Hierarchical Clustering (DHC) and using the centroid-based clustering rule, reduce the dimensionality of the set by using the following similarity measures:
+    - a) Euclidean Distance [20 points]
+    - b) Minkowski Distance [20 points]
+    - c) Cosine Similarity [20 points]
+- Discuss any discrepancies observed between 4(a), 4(b), or 4(c).
+- Use the silhouette score approach to choose the number of clusters for 4(a), 4(b), and 4(c). [10 points]
+- Use the set from (4(a), 4(b), or 4(c)) to train a classifier as in (3) using k-fold cross validation. [30 points]
